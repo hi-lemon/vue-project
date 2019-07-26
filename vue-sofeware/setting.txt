@@ -1,0 +1,49 @@
+{
+  "explorer.confirmDelete": false,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "files.autoSave": "off",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 26, // 行高
+  "editor.fontSize": 16, // 字体
+  "editor.wordWrap": "on", // 自动换行
+  // 保存自动格式化代码
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "eslint.autoFixOnSave": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "fileheader.customMade": {
+    "Author": "hwj",
+    "Date": "Do not edit",
+    "LastEditors": "hwj",
+    "LastEditTime": "Do not edit",
+    "Description": "description"
+  },
+  "fileheader.cursorMode": {
+    "msg": "",
+    "param": "",
+    "return": ""
+  },
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "html",
+    "vue"
+  ],
+  "git.path": "E:/Program Files/Git/bin/git.exe",
+  "terminal.integrated.shell.windows": "E:/Program Files/Git/bin/bash.exe",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "git.enableSmartCommit": true,
+  "workbench.iconTheme": "vscode-icons",
+  "eslint.run": "onSave"
+}
