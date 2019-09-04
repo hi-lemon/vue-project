@@ -1,5 +1,5 @@
 /**
- * @Author: yyl
+ * @Author: hst
  * @Description: socketIO公共js
  */
 /* eslint-disable */

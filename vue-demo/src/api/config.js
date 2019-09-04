@@ -1,8 +1,5 @@
 /*
- * @Author: hwj
- * @Date: 2019-06-17 13:54:22
- * @LastEditors: hwj
- * @LastEditTime: 2019-06-17 19:12:41
+ * @Author: yyl
  * @Description: 请求头里面的Content-Type配置，默认是form
  */
 // Content-Type

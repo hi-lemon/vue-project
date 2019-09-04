@@ -9,7 +9,7 @@
       <li v-for="tab in menuList" :key="tab.name" :class="{'selected': selectedTab === tab.id}" @click="goTabPage(tab)">{{ tab.name }}</li>
     </ul>
     <div class="login-info">
-      <el-dropdown trigger="click" placement="bottom" @command="handleCommand">
+      <el-dropdown trigger="click" placement="bottom">
         <el-button type="text">
           <span :title="userName">{{ userName }}</span>
           <i class="el-icon-arrow-down el-icon--right" />
