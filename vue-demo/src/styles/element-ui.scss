@@ -1,0 +1,119 @@
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.cell {
+  .el-tag {
+    margin-right: 0px;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .el-button--mini {
+    padding: 7px 10px;
+    width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .el-tag {
+      margin-right: 0px;
+    }
+  }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block;
+  }
+}
+
+// fix date-picker ui bug in filter-item
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+
+.el-loading-spinner .el-loading-text,
+.el-loading-spinner i {
+  color: white;
+}
+// 下拉框的颜色#043263
+$bgColor: #043263;
+$borderColor: #1890ff;
+// selected
+$selectedColor: #0560bd;
+// hover
+$hoverColor: #2170bf;
+// 字体
+$fontColor: #fff;
+// 下拉框
+.self-select .el-input__inner {
+  border-color: $borderColor !important;
+}
+.el-select-dropdown {
+  background-color: $bgColor;
+  border-color: $borderColor;
+}
+.el-select-dropdown__item.hover {
+  background-color: $hoverColor;
+}
+.el-select-dropdown__item.selected {
+  color: $fontColor;
+  background: $selectedColor;
+}
+.el-select-dropdown__item,
+.el-select-dropdown__empty {
+  color: $fontColor;
+}
+.el-popper[x-placement^="bottom"] .popper__arrow,
+.el-popper[x-placement^="bottom"] .popper__arrow::after {
+  border-bottom-color: $borderColor;
+}
+.el-popper[x-placement^="bottom"] .popper__arrow {
+  top: -8px;
+}

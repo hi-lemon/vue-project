@@ -1,0 +1,415 @@
+/* gis的样式修改 */
+#popup-titleContent-wrapper,
+.popup-titleContent-wrapper {
+  overflow: hidden !important;
+}
+/* AI优化，运行监测 */
+.subarea-popup-bg {
+  background: url(./images/ai/subarea-bg.png) no-repeat;
+  width: 444px;
+  height: 162px;
+  display: inline-block;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.subarea-popup-bg > .subarea-shadow {
+  background: url(./images/ai/subarea-shadow.png) no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  display: inline-block;
+  width: 472px;
+  height: 82px;
+}
+/* 子区监控 */
+.subarea-monitor-popup-bg {
+  background: url(./images/subarea/subarea-popup-bg.png) no-repeat;
+  width: 227px;
+  height: 132px;
+  display: inline-block;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.subarea-popup-bg > .top {
+  width: 100%;
+  height: 58px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateY(-50px);
+}
+.subarea-monitor-popup-bg > .top {
+  width: 100%;
+  height: 58px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateY(5px);
+}
+.subarea-monitor-popup-bg .popup-subarea-name {
+  transform: translate(5px, 10px);
+  width: 139px;
+  font-size: 20px;
+  text-align: center;
+}
+.subarea-popup-bg .score-div {
+  margin-left: 20px;
+}
+
+.sfts,
+.monitor-btn {
+  background: url(./images/btn-default.png) no-repeat;
+  width: 133px;
+  height: 48px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  line-height: 48px;
+  font-style: normal;
+}
+.sfts:hover,
+.monitor-btn:hover {
+  background: url(./images/btn-active.png) no-repeat;
+  width: 133px;
+  height: 48px;
+  color: black;
+}
+.subarea-popup-bg .popup-subarea-name {
+  transform: translate(-115px, -10px);
+  width: 183px;
+  font-size: 20px;
+  text-align: center;
+}
+.subarea-popup-bg .score,
+.subarea-popup-bg .evaluate-score {
+  font-size: 20px;
+}
+/* 隐藏阴影 */
+#popup-titleContent-wrapper,
+.popup-titleContent-wrapper {
+  box-shadow: none;
+  transform: translateY(26.9px);
+}
+/* 隐藏标题title */
+#popup-titleContent-wrapper #titlePane,
+.popup-titleContent-wrapper .titlePane {
+  visibility: hidden;
+}
+#PopupWrapper #pointer,
+.PopupWrapper .pointer {
+  background: cyan !important;
+  visibility: hidden;
+  /* transform: translateX(-6px) rotate(45deg); */
+}
+.popup-titleContent-wrapper {
+  max-width: 500px;
+}
+.popup-titleContent-wrapper .crossing-bg {
+  background: url(./images/crossing/crossing-bg.png) no-repeat;
+  width: 301px;
+  height: 145px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.crossing-bg .name {
+  width: 150px;
+  text-align: center;
+  transform: translate(10px, 8px);
+}
+.crossing-bg .bottom {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  transform: translate(0px, 10px);
+  justify-content: space-around;
+}
+.crossing-bg .bottom .monitor {
+  background: url(./images/btn-default.png) no-repeat;
+  width: 133px;
+  height: 48px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  line-height: 48px;
+}
+.crossing-bg .bottom .monitor:hover {
+  background: url(./images/btn-active.png) no-repeat;
+  width: 133px;
+  height: 48px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+}
+.popup-titleContent-wrapper .contentPane .content {
+  display: block;
+  color: #fff;
+  position: relative;
+  padding-bottom: 8px;
+  left: 7px;
+  max-width: 160px;
+  font-size: 17px;
+}
+#cesiumContainer div[id^="homePage"] .popup-titleContent-wrapper {
+  position: relative;
+  top: 65px;
+  left: -19px;
+}
+#cesiumContainer div[id^="homePage"] .popup-pointer-container {
+  display: none;
+}
+.popup-titleContent-wrapper .contentPane .map-popup-div {
+  background: url(./images/homepage/area-bg.png) no-repeat;
+  background-size: 100% 100%;
+  padding-left: 200px;
+  margin-top: 30px;
+}
+.popup-titleContent-wrapper .contentPane .map-popup-div .title {
+  font-size: 24px;
+  color: #00f6ff;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 14px;
+  position: relative;
+  top: -25px;
+  background: url(./images/homepage/title-normal.png) no-repeat;
+  background-size: 100% 100%;
+}
+.popup-titleContent-wrapper .contentPane .map-popup-div .title.disabled {
+  background: url(./images/homepage/title-disabled.png) no-repeat;
+  background-size: 100% 100%;
+}
+.popup-titleContent-wrapper .contentPane .map-popup-div .item {
+  line-height: 24px;
+  height: 35px;
+  position: relative;
+  top: -30px;
+}
+.popup-titleContent-wrapper .contentPane .map-popup-div .item-title {
+  font-size: 14px;
+  color: #fff;
+}
+.popup-titleContent-wrapper .contentPane .map-popup-div .item-content {
+  font-size: 18px;
+  color: #00f6ff;
+  padding: 0 10px;
+}
+.text-more {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+/* 数据质量 */
+.data-popup-bg {
+  background: url(./images/dataQuality/data-popup-bg.png) no-repeat;
+  width: 351px;
+  height: 289px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* 左侧 */
+.data-popup-bg > .left-div {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+.data-popup-bg > .subarea-name {
+  position: absolute;
+  top: 35px;
+  left: 47px;
+  color: #02f7f9;
+  font-size: 18px;
+}
+.data-popup-bg > .left-div > .cover-name {
+  color: #03fe23;
+  transform: translateY(47px);
+}
+.data-popup-bg > .left-div > .delay-name {
+  color: #d4d245;
+  transform: translateY(-7px);
+}
+.data-popup-bg > .left-div > .quality-name {
+  color: #fe7eb7;
+  transform: translateY(-53px);
+}
+/* 右侧 */
+.data-popup-bg > .right-div {
+  margin: auto;
+  position: relative;
+  height: 100%;
+  width: 60%;
+}
+.data-popup-bg > .right-div > i,
+.data-popup-bg > .right-div > span {
+  position: absolute;
+}
+.data-popup-bg > .right-div > .cover-score {
+  top: 72px;
+  left: 33px;
+  color: #03fe23;
+  font-size: 24px;
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+.data-popup-bg > .right-div > .delay-score {
+  color: #d4d245;
+  font-size: 24px;
+  top: 72px;
+  left: 91px;
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+.data-popup-bg > .right-div > .quality-score {
+  color: #fe7eb7;
+  font-size: 24px;
+  top: 132px;
+  left: 62px;
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+.data-popup-bg > .right-div > i:nth-child(1) {
+  background: url(./images/dataQuality/bottom.png) no-repeat;
+  width: 142px;
+  height: 40px;
+  display: inline-block;
+  top: 188px;
+  left: 22px;
+}
+.data-popup-bg > .right-div > i:nth-child(2) {
+  background: url(./images/dataQuality/bottom-shadow.png) no-repeat;
+  width: 139px;
+  height: 55px;
+  display: inline-block;
+  top: 168px;
+  left: 22px;
+}
+.data-popup-bg > .right-div > i:nth-child(3) {
+  background: url(./images/dataQuality/data-bg1.png) no-repeat;
+  width: 161px;
+  height: 161px;
+  display: inline-block;
+  top: 31px;
+  left: 12px;
+}
+.data-popup-bg > .right-div > i:nth-child(4) {
+  background: url(./images/dataQuality/data-bg2.png) no-repeat;
+  width: 145px;
+  height: 145px;
+  display: inline-block;
+  top: 39px;
+  left: 20px;
+}
+.data-popup-bg > .right-div > i:nth-child(5) {
+  background: url(./images/dataQuality/data-separate.png) no-repeat;
+  width: 98px;
+  height: 82px;
+  display: inline-block;
+  top: 58px;
+  left: 44px;
+}
+
+/* ai的路口冒泡 */
+.ai-crossing-popup {
+  background: url(./images/ai/single-popup-bg.png) no-repeat;
+  width: 301px;
+  height: 145px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ai-crossing-popup > .bottom > .algorithm {
+  background: url(./images/btn-default.png) no-repeat;
+  width: 133px;
+  height: 48px;
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  font-style: normal;
+  color: white;
+  cursor: pointer;
+}
+.ai-crossing-popup > .bottom > .algorithm:hover {
+  background: url(./images/btn-active.png) no-repeat;
+  width: 133px;
+  height: 48px;
+  display: inline-block;
+  color: black;
+}
+
+.ai-crossing-popup > .bottom {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  transform: translate(0px, 10px);
+  justify-content: space-around;
+}
+.ai-crossing-popup .crossing-name {
+  width: 154px;
+  text-align: center;
+  transform: translate(20px, 10px);
+}
+/* 数据质量的路口冒泡 */
+.data-crossing-popup {
+  background: url(./images/dataQuality/data-crossing-popup.png) no-repeat;
+  width: 429px;
+  height: 115px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.data-crossing-popup .top {
+  transform: translate(3px, -30px);
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+}
+.data-crossing-popup .crossing-name {
+  width: 154px;
+  text-align: center;
+  transform: translate(10px, -10px);
+}
+/* 效果评价的路口冒泡 */
+.evaluate-popup-bg {
+  background: url(./images/evaluate/crossing-bg.png) no-repeat;
+  width: 341px;
+  height: 115px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.evaluate-popup-bg .name {
+  width: 150px;
+  text-align: center;
+  transform: translate(10px, 10px);
+}
+.evaluate-popup-bg .bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  transform: translate(0px, 23px);
+}
