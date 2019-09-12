@@ -1,6 +1,6 @@
 <!--
  * @Author: yyl
- * @Description: 集中调度
+ * @Description: 统计分析
  -->
 <template>
   <div>
@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name: "CentralizeShedulePage",
+  name: "StatisticalAnalysisPage",
   components: {
   },
   data() {

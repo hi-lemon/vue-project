@@ -35,11 +35,11 @@ export default {
         id: "rm",
         name: "区域监控"
       }, {
-        id: "cs",
-        name: "集中调度"
+        id: "ps",
+        name: "预案调度"
       }, {
-        id: "om",
-        name: "运行维护"
+        id: "sa",
+        name: "统计分析"
       }],
       selectedTab: "",
       userName: "admin1"
@@ -59,7 +59,8 @@ export default {
 </script>
 <style lang="scss" scoped>
   .header {
-    background-image: linear-gradient(312deg, #141f54 0%, #114a9e 100%);
+    background-image: linear-gradient(312deg, #114a9e 0%, #141f54 100%);
+    background-color: #18245f;
     box-shadow: 0px 1px 4px 0px rgba(3, 14, 22, 0.53);
     .header-title {
       float: left;
@@ -98,5 +99,10 @@ export default {
       right: 10px;
       color: #fff;
     }
+  }
+</style>
+<style lang="scss">
+  .el-button--text {
+    color: #fff;
   }
 </style>

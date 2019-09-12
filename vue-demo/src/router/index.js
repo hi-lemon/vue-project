@@ -24,13 +24,13 @@ export const routes = [
         component: () => import("@/views/page/regionMonitorPage"),
         name: "rm"
       }, {
-        path: "cs",
-        component: () => import("@/views/page/centralizeShedulePage"),
-        name: "cs"
+        path: "ps",
+        component: () => import("@/views/page/planSchedulePage"),
+        name: "ps"
       }, {
-        path: "om",
-        component: () => import("@/views/page/omPage"),
-        name: "om"
+        path: "sa",
+        component: () => import("@/views/page/statisticalAnalysisPage"),
+        name: "sa"
       }
     ]
   },

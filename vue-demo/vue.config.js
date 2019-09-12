@@ -22,8 +22,8 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  publicPath: isProduction ? "tunnelPro" : "/",
-  outputDir: "tunnelPro",
+  publicPath: isProduction ? "signalMonitor" : "/",
+  outputDir: "signalMonitor",
   assetsDir: "static",
   lintOnSave: !isProduction,
   productionSourceMap: false,
@@ -61,52 +61,28 @@ module.exports = {
           "^/arcgis": ""
         }
       },
-      // "/hc-web": {
-      //   target: "http://10.10.20.39:8888/hc-web",
-      //   changeOrigin: true,
-      //   ws: true,
-      //   pathRewrite: {
-      //     "^/hc-web": ""
-      //   }
-      // },
-      // "/gisapi": {
-      //   target: "http://10.10.20.39:8888/gisapi",
-      //   changeOrigin: true,
-      //   ws: true,
-      //   pathRewrite: {
-      //     "^/gisapi": ""
-      //   }
-      // },
-      // "/arcgis": {
-      //   target: "http://10.10.20.39:8888/arcgis",
-      //   changeOrigin: true,
-      //   ws: true,
-      //   pathRewrite: {
-      //     "^/arcgis": ""
-      //   }
-      // },
-      "/data": {
-        target: "http://10.10.20.39:8888/data",
+      "/platform": {
+        target: "http://10.10.20.39:8888/platform",
         changeOrigin: true,
         ws: true,
         pathRewrite: {
-          "^/data": ""
+          "^/platform": ""
         }
       },
-      "/tunnel": {
-        target: "http://10.10.15.36:8689/",
+      "/intellitbi": {
+        target: "http://10.10.20.36:8080/intellitbi",
         changeOrigin: true,
         ws: true,
         pathRewrite: {
-          "^/tunnel": ""
+          "^/intellitbi": ""
         }
       },
-      "/user": {
-        target: "http://10.10.15.36:8689/user",
+      "/intellirt": {
+        target: "http://10.10.20.36:8090/intellirt",
         changeOrigin: true,
         ws: true,
         pathRewrite: {
-          "^/user": ""
+          "^/intellirt": ""
         }
       }
     }

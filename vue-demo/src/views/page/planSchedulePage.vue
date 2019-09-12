@@ -1,6 +1,6 @@
 <!--
  * @Author: yyl
- * @Description: 运行维护
+ * @Description: 预案调度
  -->
 <template>
   <div>
@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name: "OmPage",
+  name: "PlanSchedulePage",
   components: {
   },
   data() {

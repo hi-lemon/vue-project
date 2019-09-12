@@ -63,4 +63,9 @@ export default {
 ::-webkit-scrollbar-corner {
   background: khaki;
 }
+.home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 </style>
